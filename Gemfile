@@ -13,6 +13,8 @@ gem "autoprefixer-rails"
 gem "font-awesome-sass", "~> 6.1"
 # Form
 gem "simple_form", github: "heartcombo/simple_form"
+# secret keys on git-hub
+gem "dotenv-rails", groups: [:development, :test]
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
