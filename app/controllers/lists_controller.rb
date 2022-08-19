@@ -15,14 +15,16 @@ class ListsController < ApplicationController
 
   def new
     @list = List.new
+    # @bookmark = Bookmark.find(params[:bookmark_id])
   end
 
   def create
     @list = List.new(list_params)
-    @list.bookmark = @bookmark
+    # @list.bookmark = @bookmark
 
     if @list.save
-      redirect_to bookmark_path(@bookmark)
+      # redirect_to bookmark_path(@bookmark)
+      redirect_to new_list_path(@list)
     else
       render :new, status: :unprocessable_entity
     end
