@@ -9,10 +9,15 @@ gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 # ADD GEM
 # To used the code in differents kind of browser
 gem "autoprefixer-rails"
-# Use font-awwsome - icons
+# Use font-awesome - icons
 gem "font-awesome-sass", "~> 6.1"
 # Form
 gem "simple_form", github: "heartcombo/simple_form"
+# secret keys on git-hub
+gem "dotenv-rails", groups: [:development, :test]
+# Cloudinary - banco de dados de imagens
+gem "cloudinary"
+
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
