@@ -1,0 +1,33 @@
+.card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 35px;
+  padding: 2rem;
+  gap: 1.5rem;
+  background-color: transparent;
+}
+
+
+.card-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 225px;
+  width: 152px;
+  // background-color: antiquewhite;
+  border-radius: 12px;
+  box-shadow: 0px 0px 6px $light-gray;
+
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: $dark-gold;
+}
+
+.card-list:hover{
+  color: $dark-gold;
+  font-size: 1.2rem;
+  background-color: rgba($dark, 0.6);
+
+}

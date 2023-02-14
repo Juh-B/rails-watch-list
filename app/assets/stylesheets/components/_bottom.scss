@@ -1,0 +1,18 @@
+// Bottons
+.btn-all {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: $dark;
+  background-color: $dark-gold;
+  font-weight: bold;
+  border-radius: 1.5rem;
+  padding: 1rem 2rem;
+  width: 20%;
+}
+
+// hover
+.btn-all:hover {
+  border-color: $dark-gold !important;
+  color: $dark-gold !important;
+}
